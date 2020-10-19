@@ -9,5 +9,17 @@ class Cuadro:
         postura, vector = self.clasificador.posturaPersona(imagen)
         return postura , vector
     def ToClase(self, post):
-        Posturas = ["Apuntando", "Brazos Cruzados", "Mano alzada", "Mano Cabeza", "Brazos costados", "Postura abierta", "Manos caderas", "Mano A  Menton", "Mano abierta"]
+        Posturas = [\
+            'Mano Izquierda Apuntando',
+            'Mano derecha Apuntando'
+            'Brazos cruzados'
+            'Mano alzada'
+            'Mano Cabeza'
+            'Manos costado'
+            'Expositiva'
+            'Manos cadera'
+            'Mano Mentón'
+            'Mano derecha Abierta'
+            'Mano Izquierda Abierta'
+            'Manos Juntas']
         return Posturas[post]

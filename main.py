@@ -1,5 +1,7 @@
 from controlador import Controlador
-from datetime import datetime 
 
-control = Controlador()
-control.Activida("1.mp4")
+def Run():
+    control = Controlador()
+    control.Activida()
+if __name__ == "__main__":
+    Run()

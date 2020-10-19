@@ -26,6 +26,7 @@ class Clasificador:
         return lista
     def clasificarPostura(self, puntos):
         model = load_model('modelo/Postura.h5')
+        model.load_weights('modelo/model_postura.h5')
         #print(clasificador.toModelo(puntos))
         prediction = model.predict(tf.constant([self.toModelo(puntos)]))
         return prediction

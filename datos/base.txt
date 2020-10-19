@@ -1,0 +1,21 @@
+Postura
+    1- Manos Abajo
+    2- Mano derecha levantada
+    3- Mano izquierda levantada
+    4- Manos Abiertas
+    5- Brazos Cruzados
+    6- Pregunta mano derecha
+    7- Pregunta mano izquierda
+    8- Mano derecha a cara
+    9- Mano izquierda  a cara
+    10- Enfasis
+    11- Manos a cadera 
+
+Emociones 
+    1- Feliz
+    2- Triste
+    3- Asombro
+    4- Neutral
+Mirada
+    1- si
+    2- no
